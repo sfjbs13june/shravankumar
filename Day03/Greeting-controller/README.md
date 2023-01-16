@@ -1,11 +1,11 @@
 ## Create Springboot project
 https://start.spring.io/
 
-## select maven version as 2.7.7 and java as 11
+select maven version as 2.7.7 and java as 11
 
-## Add Spring web dependency
+Add Spring web dependency
 
-## write the code
+write the code
 
 ## Build project
 mvn clean install
