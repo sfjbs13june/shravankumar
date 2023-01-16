@@ -8,6 +8,8 @@ https://start.spring.io/
 
 mvn clean install
 
-## Run the application
+## Run  application
 
 mvn spring-boot:run
+
+## Test application
