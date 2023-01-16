@@ -1,5 +1,13 @@
-## Build application
+## Create Springboot project
 
-## Run application
+https://start.spring.io/
 
-## Test application
+## select maven version as 2.7.7 and java as 11 #Add Spring web dependency
+
+## Build project
+
+mvn clean install
+
+## Run the application
+
+mvn spring-boot:run
