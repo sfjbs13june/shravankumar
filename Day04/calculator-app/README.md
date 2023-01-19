@@ -24,6 +24,5 @@ curl --location --request GET 'localhost:8082/mul?a=5.0&b=5.0'
 
 curl --location --request GET 'localhost:8082/div?a=5.0&b=5.0'
 
-
 ```
 
