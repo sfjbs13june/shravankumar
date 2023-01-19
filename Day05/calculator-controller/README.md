@@ -12,10 +12,10 @@ mvn spring-boot:run
 
 ## Test Application
 
-curl --location --request GET 'localhost:8081/add?a=5&b=4'
+curl --location --request GET 'localhost:8080/add?m=7&s=8'
 
-curl --location --request POST 'localhost:8081/sub?a=12&b=5'
+curl --location --request POST 'localhost:8080/sub?m=10&s=2'
 
-curl --location --request PUT 'localhost:8081/mul?a=5&b=9'
+curl --location --request PUT 'localhost:8080/mul?m=10&s=6'
 
-curl --location --request DELETE 'localhost:8081/div?a=12&b=2'
+curl --location --request DELETE 'localhost:8080/div?m=18&s=3'
