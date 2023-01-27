@@ -77,8 +77,7 @@ $ docker ps
 ## List all docker images
 
 ```
-$ d
-ocker images
+$ docker images
 ```
 ## Stop and remove docker container
 
