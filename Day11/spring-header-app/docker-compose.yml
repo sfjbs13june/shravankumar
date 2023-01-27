@@ -1,0 +1,7 @@
+version: '3'
+services:
+  header-app:
+    image: shravankumarmunakala/spring-header-app:1.0.0
+    container_name: header-app
+    ports:
+      - "8080:8080"
