@@ -1,6 +1,9 @@
-#Build
+## Build
 
+``` 
 mvn clean install
+```
+
 
 # Run
 ```
@@ -11,12 +14,12 @@ mvn spring-boot:run
 docker-compose -f docker-compose-mysql.yml down
 
 ```
-# training
-##POST
+
+# POST
 
 ```
 curl -X POST \
-http://localhost:8081/user/create -H 'content-type: application/json' -d '{"name": "Rama","teamName": "beta","salary": 23000 }'
+http://localhost:8081/user/create -H 'content-type: application/json' -d '{"name": "kumar","teamName": "alfa","salary": 300000 }'
 
 ```
 ## Get 
