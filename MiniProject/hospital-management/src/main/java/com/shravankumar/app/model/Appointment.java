@@ -1,13 +1,15 @@
 package com.shravankumar.app.model;
 
-public class Appointment {
+import java.util.List;
+
+public class Appointment{
     String appointmentId;
     String patientName;
     String doctorName;
     String date;
     Prescription prescription;
 
-    public Appointment(String appointmentId, String patientName, String doctorName, String date, Prescription prescription) {
+    public Appointment() {
         this.appointmentId = appointmentId;
         this.patientName = patientName;
         this.doctorName = doctorName;

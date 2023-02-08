@@ -6,15 +6,13 @@ public class Prescription {
     String description;
     String patientName;
     String doctorName;
-    public Prescription(String prescriptionId, String appointmentId, String description, String patientName, String doctorName) {
+    public Prescription() {
         this.prescriptionId = prescriptionId;
         this.appointmentId = appointmentId;
         this.description = description;
         this.patientName = patientName;
         this.doctorName = doctorName;
     }
-
-
 
     public String getPrescriptionId() {
         return prescriptionId;
