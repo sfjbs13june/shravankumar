@@ -32,8 +32,6 @@ public class MyclassA {
         int result= myclassB.getClassCRestult(myClassC);
         return result;
     }
-
-
     public void method6(){
         myclassB.NoreturnData("my data");
 

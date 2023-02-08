@@ -19,5 +19,4 @@ public class MyClassCTest {
         int result = myclassC.getMyAge(23);
         assertEquals(23, result);
     }
-
 }

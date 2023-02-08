@@ -41,7 +41,6 @@ public class MyclassBTest {
         assertEquals("my result hello", result);
     }
 
-
     @Test
     public void TestgetClassCRestult() {
         when(myclassC.getMyAge(anyInt())).thenReturn(35);

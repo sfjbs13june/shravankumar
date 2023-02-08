@@ -31,7 +31,6 @@ public class MyclassATest {
         String result = myclassA.method1();
         assertEquals("hello", result);
     }
-
     @Test
     public void TestMethod2() {
         when(myclassB.getResult()).thenReturn("your result");

@@ -20,7 +20,5 @@ public class MyclassB {
 
     public void NoreturnData(String data){
         System.out.println(data);
-
     }
-
 }

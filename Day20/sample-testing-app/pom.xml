@@ -8,7 +8,7 @@
 		<version>2.7.8</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.rama.app</groupId>
+	<groupId>com.shravankumar.app</groupId>
 	<artifactId>sample-testing-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sample-testing-app</name>
