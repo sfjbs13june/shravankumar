@@ -5,17 +5,19 @@ services:
     ports:
       - "8083:8083"
     environment:
-      spring.data.mongodb.uri: mongodb://mongo:27017/data
+      spring.data.mongodb.url: mongodb://mongo:27017/data
     depends_on:
       - mongo
     networks:
-      - my-network
+      - mongo-network
   mongo:
     image: mongo:3.4.7
     ports:
       - "27017:27017"
     networks:
-      - my-network
+      - mongo-network
 networks:
-  my-network:
+  mongo-network:
     driver: bridge
+
+
