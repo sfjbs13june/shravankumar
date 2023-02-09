@@ -34,8 +34,9 @@ docker-compose down
 
 ## Testing
 
-``` 
 ## DoctorController
+
+``` 
 
 curl --location --request GET 'localhost:8080/doctor/doctor-appointment' \
 --header 'Authorization: Basic RG9jdG9yMTIzOnBhc3Nkb2MxMjM=' \
